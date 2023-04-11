@@ -52,9 +52,7 @@ h3 span {
 
 .skills-box p {
     font-size: 16px;
-    line-height: 1.4;/*
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out;*/
+    line-height: 1.4;
 }
 
 .skills-box h4 {
