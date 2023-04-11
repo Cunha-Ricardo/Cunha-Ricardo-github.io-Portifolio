@@ -1,0 +1,145 @@
+.skills {
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.headling {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.skills-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 50px;
+}
+
+h3 span {
+    color: var(--roxo);
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.skills-box {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd18;
+    margin-right: 20px;
+    background-color: var(--preto-transparente);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.973);
+}
+
+.skills-box i {
+    font-size: 70px;
+    color: var(--roxo);
+}
+
+.skills-box h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    color: var(--roxo);
+}
+
+.skills-box p {
+    font-size: 16px;
+    line-height: 1.4;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.skills-box h4 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--roxo);
+}
+
+.skills-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.skills-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.skills-box:hover p {
+    opacity: 1;
+}
+
+.skills-box.design img {
+    border: 5px solid var(--roxo);
+}
+
+.skills-box.code img {
+    border: 5px solid var(--azul);
+}
+
+.skills-box.front-end img {
+    border: 5px solid var(--amarelo);
+}
+
+.skills-box.front-end,
+.skills-box.design,
+.skills-box.code {
+    color: #fff;
+}
+
+.skills-box.front-end i,
+.skills-box.design i,
+.skills-box.code i {
+    color: #fff;
+}
+
+.skills-box.front-end h3,
+.skills-box.design h3,
+.skills-box.code h3 {
+    color: #fff;
+}
+
+.skills-box.front-end p,
+.skills-box.design p,
+.skills-box.code p {
+    color: #f7f7f76b;
+}
+
+.skills-box.front-end:hover,
+.skills-box.design:hover,
+.skills-box.code:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--branco-transparente);
+}
+
+@media screen and (max-width: 1024px) {
+    .skills-container {
+        justify-content: center;
+    }
+
+    .skills-box {
+        width: 40%;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

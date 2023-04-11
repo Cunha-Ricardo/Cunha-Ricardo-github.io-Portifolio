@@ -1,0 +1,249 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideH3 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+    animation: slideH3 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content h3 span {
+    color: var(--roxo);
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+    animation: sliderh1 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home-content p {
+    font-size: 16px;
+    opacity: 0;
+    animation: slideP 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home-img img {
+    max-width: 450px;
+    margin-right: -20px;
+    opacity: 0;
+    animation: ZoomIn 1s ease forwards, floatimage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;
+    border-radius: 10%;
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--roxo);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--roxo);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: sliderSocialMedia 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.social-media a:hover {
+    background: var(--roxo);
+    color: #1f232c;
+    box-shadow: 0 0 20pxvar(--roxo);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--roxo);
+    border-radius: 40px;
+    box-shadow: 0 0 10px var(--roxo);
+    font-size: 16px;
+    color: #1f232c;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slidebtn 1s ease forwards;
+    animation-delay: 2s;
+}
+
+/*************Logo animação*/
+@keyframes sliderLogo {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*************NavBar header animação*/
+@keyframes sliderNavBar {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/*************H3 animação*/
+@keyframes slideH3 {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/*************H1 animação*/
+@keyframes sliderh1 {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*************social media animação*/
+@keyframes sliderSocialMedia {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/*************P animação*/
+@keyframes slideP {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*************Botão Download animação*/
+@keyframes slidebtn {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/*************Imagem animação*/
+@keyframes ZoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatimage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-24px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* para telas maiores que 768px */
+@media screen and (min-width: 768px) {
+    .home {
+      flex-direction: row;
+    }
+    .home-content {
+      flex-basis: 50%;
+      max-width: 50%;
+      text-align: left;
+    }
+    .home-img {
+      flex-basis: 50%;
+      text-align: right;
+    }
+  }
+  
+  /* para telas menores que 768px */
+  @media screen and (max-width: 767px) {
+    .home {
+      flex-direction: column;
+    }
+    .home-content {
+      flex-basis: 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    .home-img {
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+:root{
+    --amarelo: #d4e63b;
+    --segundacorbackground:#202020a2;
+    --amareloclaro: #dbe0aa;
+    --roxomouse:#c76ddd;
+    --roxo:#BC46D9;
+    --roxo-p:#68157c;
+    --roxoclaro:#cd04ff44;
+    --laranja: #FFCF5C;
+    --azulescuro: #1a3be2 ; 
+    --azul:#cae5ff;
+    --azulclaro:#0ef;
+    --amarelo-transparente: #FFCB473D;
+    --branco: #ffffff;
+    --brancoformulario: #8180782a;
+    --cinza: #909090;
+    --preto:#202020;
+    --preto-transparente: #0000000F;
+    --branco-transparente: #ffffffab;
+    --verde:#76d3a7;
+    --botao:#3f82e7;
+    --botaohouver:#5f7aa1;
+}

@@ -1,0 +1,112 @@
+#projetos {
+    cursor: none;
+    margin: 30px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    background: var(--segundacorbackground);
+    box-shadow: 0 0 15px rgba(216, 5, 181, 0.3);
+}
+
+#projetos:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+.titles {
+    font-family: Oxygen;
+    font-size: 32px;
+    color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.block {
+    height: auto;
+    overflow: hidden;
+}
+
+#projetos .img-block img {
+    height: auto;
+    max-height: 130px;
+    min-height: 150px;
+    display: block;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.img-block {
+    display: inline-block;
+    background-color: var(--preto-transparente);
+    width: auto;
+    margin: 0;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+#portifolio .row .caption {
+    color: black;
+    padding-top: 8px;
+    font-size: 18px;
+    font-family: Oxygen;
+    font-weight: bold;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--roxo);
+}
+
+.coluna {
+    display: inline-block;
+    margin: 10px;
+    margin-right: -10px;
+}
+
+/**********************************/
+
+/* Tamanho da tela pequeno */
+@media (max-width: 768px) {
+    /* Ajustes para telas pequenas */
+    #projetos .img-block {
+      margin-left: 0;
+    }
+    .coluna {
+      display: block;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Tamanho da tela médio */
+  @media (min-width: 768px) and (max-width: 992px) {
+    /* Ajustes para telas médias */
+    #projetos .img-block {
+      margin-left: 0;
+    }
+    .coluna {
+      display: block;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Tamanho da tela grande */
+  @media (min-width: 992px) {
+    /* Ajustes para telas grandes */
+    #projetos .img-block {
+      margin-left: 30px;
+    }
+    .coluna {
+      display: inline-block;
+      margin: 10px;
+      margin-right: -10px;
+    }
+  }
+  

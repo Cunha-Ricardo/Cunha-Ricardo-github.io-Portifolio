@@ -1,0 +1,120 @@
+.contato {
+    cursor: none;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+/* Definir a cor de fundo da seção */
+/* Definir a cor de fundo da seção */
+#contato {
+    background-color: #1f232c;
+    padding: 50px;
+}
+
+/* Estilizar o título da seção */
+#contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--roxoclaro);
+}
+
+/* Estilizar a lista de informações de contato */
+#contato ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contato li {
+    font-size: 1.2em;
+    margin: 20px;
+    text-align: center;
+    color: var(--branco);
+}
+
+#contato a {
+    color: var(--roxoclaro);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+#contato a:hover {
+    color: var(--roxo);
+}
+
+/* Estilizar o ícone de e-mail */
+.email-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--roxo);
+    border-radius: 30%;
+    font-size: 20px;
+    color: var(--roxo);
+}
+
+/* Estilizar o ícone de telefone */
+.telefone-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--roxo);
+    border-radius: 30%;
+    font-size: 20px;
+    color: var(--roxo);
+}
+
+/* Estilizar Social media*/
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--roxo);
+    border-radius: 30%;
+    font-size: 20px;
+    color: var(--roxo);
+}
+
+.wpp img {
+    width: 60%;
+}
+
+#contato li span {
+    color: var(--roxo);
+}
+
+#contato p {
+    color: var(--branco-transparente);
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.headling {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.contato-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 25px;
+}
+
+h3 span {
+    color: var(--roxo);
+}

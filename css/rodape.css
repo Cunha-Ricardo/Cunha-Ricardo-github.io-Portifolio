@@ -1,0 +1,14 @@
+footer{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--preto-transparente)
+}
+  footer a:hover {
+    color: #ccc;
+  }
