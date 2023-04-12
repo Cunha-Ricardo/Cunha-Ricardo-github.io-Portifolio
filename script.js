@@ -35,7 +35,7 @@ links.forEach((links)=>{
     });
 });
 
-/************************Mouse tag scroll animation*/
+/************************Mouse scroll animação*/
 
 const header = document.querySelector("header");
 
@@ -47,15 +47,15 @@ const header = document.querySelector("header");
         }
       });
 
-      // Get all the navigation links in the header
+      
       const navLinks = document.querySelectorAll("nav a");
 
-      // Attach an event listener to each link
+      
       navLinks.forEach(link => {
         link.addEventListener("click", function(event) {
-          event.preventDefault(); // Prevent the default link behavior
-          const sectionId = this.getAttribute("href"); // Get the ID of the section to scroll to
-          const section = document.querySelector(sectionId); // Get the section element
-          section.scrollIntoView({ behavior: "smooth" }); // Scroll to the section using smooth scrolling animation
+          event.preventDefault();
+          const sectionId = this.getAttribute("href");
+          const section = document.querySelector(sectionId);
+          section.scrollIntoView({ behavior: "smooth" }); 
         });
       });
