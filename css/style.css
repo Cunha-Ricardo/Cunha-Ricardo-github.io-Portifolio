@@ -62,7 +62,6 @@ a {
 }
 
 /***********************CURSOR********************/
-
 .inner-cursor {
     position: fixed;
     left: 10px;
@@ -73,7 +72,7 @@ a {
     background-color: var(--roxomouse);
     mix-blend-mode: difference;
     border-radius: 50%;
-    pointer-events: auto;
+    pointer-events: none;
     transition: width 0.5s, height 0.5s;
     z-index: 9999;
 }
@@ -94,7 +93,7 @@ a {
     border: 1px solid #fff;
     mix-blend-mode: difference;
     border-radius: 50%;
-    pointer-events: auto;
+    pointer-events: none;
     transition: .2s;
 }
 
