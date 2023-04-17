@@ -1,7 +1,9 @@
-
+/* Estilos para a seção Skills */
 #Skills {
     padding: 80px 0;
   }
+  
+  /* Estilos para o título */
   .headling {
     font-size: 4.5rem;
     font-weight: bold;
@@ -13,6 +15,7 @@
     color: var(--roxo);
   }
   
+  /* Estilos para as cartas de habilidades */
   .card {
     border-radius: 10px;
     margin: 20px;
@@ -32,11 +35,15 @@
   .card-body {
     padding: 30px;
   }
+  
+  /* Estilos para o ícone de habilidade */
   .skill-box i {
     font-size: 70px;
     color: var(--amarelo);
     margin-bottom: 20px;
   }
+  
+  /* Estilos para o título de habilidade */
   .skill-box h3 {
     font-size: 1.5rem;
     margin-top: 0;
@@ -71,7 +78,7 @@
   }
   
   
-  /* Bootstrap */
+  /* Estilos para a seção do Bootstrap */
   #Bootstrap {
     background-color: var(--cinza);
     padding: 80px 0;
