@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    cursor: none;
 }
 
 body {
     background: #1f232c;
     color: #fff;
+    cursor: none;
 }
 
 a {
-    cursor: pointer;
+    cursor: none;
 }
 
 .header {
@@ -71,8 +73,9 @@ a {
     background-color: var(--roxomouse);
     mix-blend-mode: difference;
     border-radius: 50%;
-    pointer-events: none;
+    pointer-events: auto;
     transition: width 0.5s, height 0.5s;
+    z-index: 9999;
 }
 
 .inner-cursor.grow {
@@ -91,7 +94,7 @@ a {
     border: 1px solid #fff;
     mix-blend-mode: difference;
     border-radius: 50%;
-    pointer-events: none;
+    pointer-events: auto;
     transition: .2s;
 }
 
