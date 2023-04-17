@@ -8,11 +8,10 @@
 body {
     background: #1f232c;
     color: #fff;
-    cursor: none;
 }
 
 a {
-    cursor: none;
+    cursor: pointer;
 }
 
 .header {
@@ -101,8 +100,6 @@ a {
 /******************SKILLS*********************/
 
 /**************CONTATO***********/
-
-/*Portifolio*/
 
 /*    Rodape   */
 
