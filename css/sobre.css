@@ -4,6 +4,7 @@
     align-items: center;
     gap: 2rem;
     background: var(--segundacorbackground);
+    padding: 30px;
     border-radius: 5px;
     margin: 30px;
     margin-bottom: 50px;
@@ -17,6 +18,7 @@
 }
 
 .about-img img {
+    display: block;
     width: 32vw;
     max-width: 290px;
     margin-top: 25px;
@@ -24,7 +26,6 @@
     margin-bottom: 50px;
     border-radius: 10%;
 }
-
 
 
 .headling {
@@ -88,21 +89,9 @@
     animation: slideBtn 1s ease forwards;
     animation-delay: 1s;
 }
+
 .about-content .btn:hover {
     background: #fff;
     color: var(--roxo);
     border: 2px solid var(--roxo);
-  }
-  
-
-  @media screen and (max-width: 767px) {
-    .about {
-      flex-direction: column;
-    }
-    
-    .about-img img {
-      margin-top: 0;
-      margin-left: 0;
-      margin-bottom: 20px;
-    }
-  }
+}
