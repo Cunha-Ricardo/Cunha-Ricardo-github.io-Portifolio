@@ -1,235 +1,295 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" type="image/x-image" href="imagem/code.jpg">
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/-reset.css" />
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/-reset.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="css/portifolio.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <title>Portfolio</title>
-  </head>
-  <body>
 
-    <header class="header"> 
 
-        <a href="#" class="logo">Portfolio</a>
+</head>
 
-        <nav class="navbar">
-            <a href="#" style="--i:1;" class="active">Home</a>
-            <a href="#about"style="--i:2;">Sobre</a>
-            <a href="#skills"style="--i:3;">Skills</a>
-            <a href="#projetos"style="--i:4;">Projetos</a>
-            <a href="#contato"style="--i:5;">Contato</a>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand " href="#">Ricardo <span class="degrade">Cunha</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-collapse">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">Home</a>
+                        <a class="nav-item nav-link" href="#about">Sobre</a>
+                        <a class="nav-item nav-link" href="#skills">Skills</a>
+                        <a class="nav-item nav-link" href="#projetos">Projetos</a>
+                        <a class="nav-item nav-link" href="#contato">Contato</a>
+
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <section class="home">
-        <div class="home-content">
-          <h3>Opa, sou </h3>
-          <h1>Ricardo Cunha</h1>
-          <h3>E eu sou <span class="multiple-text"></span></h3>
-                <p>Olá, meu nome é Ricardo Cunha. Atualmente, estou no 5º semestre do curso de Ciência da Computação
-                     e sou apaixonado por tecnologia e programação. Possuo um certificado em desenvolvimento web e
-                      tenho experiência em linguagens de programação como HTML, CSS, PHP, JavaScript e banco de dados.
-                       Também tenho conhecimentos básicos em Python.
-                    <br>
-                    Estou sempre buscando aprimorar minhas habilidades em programação e resolução de problemas, já que
-                     estou estudando para me tornar um profissional de tecnologia. Meu objetivo é trabalhar em um ambiente
-                      de tecnologia, onde possa usar minhas habilidades para criar soluções incríveis e fazer a diferença 
-                      no mundo da tecnologia.
-                </p>
+    <section id="Home">
+        <div class="container home-content">
+            <div class="row d-flex">
+                <div class="col-md-6 align-self-center home-content">
+                    <h3>Opa, sou </h3>
+                    <h1>Ricardo Cunha</h1>
+                    <h3>E eu sou <span class="multiple-text"></span></h3>
+                    <p>Olá, meu nome é Ricardo Cunha. Atualmente, estou no 5º semestre do curso de Ciência da Computação
+                        e sou apaixonado por tecnologia e programação. Possuo um certificado em desenvolvimento web e
+                        tenho experiência em linguagens de programação como HTML, CSS, PHP, JavaScript e banco de dados.
+                        Também tenho conhecimentos básicos em Python.
+                        <br>
+                        Estou sempre buscando aprimorar minhas habilidades em programação e resolução de problemas, já
+                        que
+                        estou estudando para me tornar um profissional de tecnologia. Meu objetivo é trabalhar em um
+                        ambiente
+                        de tecnologia, onde possa usar minhas habilidades para criar soluções incríveis e fazer a
+                        diferença
+                        no mundo da tecnologia.
+                    </p>
+                    <div class="social-media"><a href="https://www.instagram.com/ricardoo_cunha/" style="--i:7;"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Cunha-Ricardo" style="--i:8;"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/ricardo-dantas-cunha-a4aa9b216/" style="--i:9;"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://twitter.com/Ricardoo_cunhaa" style="--i:10;"><i class='bx bxl-twitter'></i></a>
+                        <br>
+                        <!--<a href="https://drive.google.com/file/d/13NLKW8XYf8KgHWIrCN-QCY_p6vkG_-eH/view?usp=sharing" class="btn">Download CV</a>-->
+                    </div>
 
-          <div class="social-media">
-            <a href="https://www.instagram.com/ricardoo_cunha/" style="--i:7;"><i class='bx bxl-instagram'></i></a>
-            <a href="https://github.com/Cunha-Ricardo" style="--i:8;"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/ricardo-dantas-cunha-a4aa9b216/" style="--i:9;"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://twitter.com/Ricardoo_cunhaa" style="--i:10;"><i class='bx bxl-twitter' ></i></a>
-          </div>
-          <a href="https://drive.google.com/file/d/13NLKW8XYf8KgHWIrCN-QCY_p6vkG_-eH/view?usp=sharing" class="btn">Download CV</a>
+                </div>
+                <div class="col-md-6 home-img d-none d-md-block">
+                    <img src="imagem/ricardo3.png" alt="" class="img-fluid">
+                </div>
+
+            </div>
         </div>
+    </section>
+    <hr>
 
-        <div class="home-img">
-          <img src="imagem/ricardo3.png" alt="">
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 about-img">
+                    <img src="imagem/ricardo3.png" style="width: 200px;" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h3>Sobre <span>Mim</span></h3>
+                    <h3><span> Frontend!</span></h3>
+                    <p>
+                        Olá, meu nome é Ricardo Dantas Cunha, tenho 20 anos e sou estudante de Ciências
+                        da Computação na São Judas Butantã, atualmente no 5º semestre de um total de
+                        8 semestres previstos para o curso. Além disso, trabalho como programador na
+                        área de desenvolvimento, tendo anteriormente experiência como assistente Administrativo.
+
+                        Tenho diversos cursos na área de desenvolvimento, com foco em front-end e projetos, o que me
+                        permite
+                        ter habilidades em linguagens de programação como HTML, CSS, PHP, JavaScript e banco de dados.
+                        Além
+                        disso, tive a oportunidade de participar de um intercâmbio nos Estados Unidos, onde morei por 6
+                        meses
+                        e pude aprimorar minhas habilidades no idioma e aprender sobre novas culturas.
+
+                        Sempre busco novos desafios e aprimoramento constante em minha área de estudo, com o objetivo de
+                        me tornar
+                        um profissional de destaque na tecnologia. Estou animado com as possibilidades que a Ciência da
+                        Computação
+                        oferece e pretendo continuar me desenvolvendo em áreas como programação, análise de dados e
+                        inteligência artificial.
+
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <div class="inner-cursor"></div>
-        <div class="outer-cursor"></div>
     </section>
 
-  </section>
-  <!--Seção sobre design-->
-  <section class="about" id="about">
-      <div class="about-img">
-          <img src="imagem/ricardo3.png" alt="imagemsobre">
-      </div>
-      <div class="about-content">
-          <h3>Sobre <span>Mim</span></h3>
-          <h3><span> Frontend!</span></h3>
-                <p>
-                    Olá, meu nome é Ricardo Dantas Cunha, tenho 20 anos e sou estudante de Ciências
-                     da Computação na São Judas Butantã, atualmente no 5º semestre de um total de
-                      8 semestres previstos para o curso. Além disso, trabalho como programador na
-                       área de desenvolvimento, tendo anteriormente experiência como assistente Administrativo.
+    <hr>
 
-                    Tenho diversos cursos na área de desenvolvimento, com foco em front-end e projetos, o que me permite
-                     ter habilidades em linguagens de programação como HTML, CSS, PHP, JavaScript e banco de dados. Além
-                      disso, tive a oportunidade de participar de um intercâmbio nos Estados Unidos, onde morei por 6 meses
-                       e pude aprimorar minhas habilidades no idioma e aprender sobre novas culturas.
-
-                    Sempre busco novos desafios e aprimoramento constante em minha área de estudo, com o objetivo de me tornar
-                     um profissional de destaque na tecnologia. Estou animado com as possibilidades que a Ciência da Computação
-                      oferece e pretendo continuar me desenvolvendo em áreas como programação, análise de dados e inteligência artificial.
-
-                </p>
-      </div>
-  </section>
-
-  <!-- Seção Skills-->
-    <section class="skills" id="skills">
-      <div class="skills-content">
-          <h3 class="headling">Meus <span>Skills!!</span></h3>
-      </div>
-      <div class="skills-container">
-          <div class="skills-box code">
-                    <i class="bx bx-code-alt"></i>
-                    <h3>Backend</h3>
-                    <img src="imagem/code.jpg">
-                    <h4>Linguagens de Programação:</h4>
-                    <p>Python, PHP, Java</p>
-                    <h4>Frameworks:</h4>
-                    <p>Laravel</p>
-                    <h4>Bancos de Dados:</h4>
-                    <p>SQL</p>
-                </div>
-          <div class="skills-box design">
-              <i class='bx bx-paint'></i>
-              <h3>design Gráfico</h3>
-              <img src="imagem/designn.jpg">
-              <h4>Software:</h4>
-              <p>Adobe Photoshop, Adobe Illustrator, Adobe InDesign</p>
-              <h4>Habilidades:</h4>
-              <p>Criação de logotipos e edição de imagens</p>
-          </div>
-          <div class="skills-box front-end">
-              <i class='bx bx-code-alt'></i>
-              <h3>Frontend</h3>
-              <img src="imagem/desenvolvedorFront-end.jpg">
-              <h4>Linguagens de Marcação:</h4>
-              <p>HTML e XML</p>
-              <h4>Linguagens de Estilização:</h4>
-              <p>CSS, SASS</p>
-              <h4>Linguagens de Programação:</h4>
-              <p>JavaScript</p>
-              <h4>Frameworks e Bibliotecas:</h4>
-              <p>React e Bootstrap</p>
-              <h4>Projetos:</h4>
-              <p>Desenvolvimento de websites responsivos</p>
-          </div>
-      </div>
-  </section>
-
-<!-- Seção Projetos-->
-
-      <section id="projetos">
-        <div class="block">
-        <div class="titles">
-            Projetos
-        </div>
-        <div class="row">
-            <div class="coluna">
-                    <div class="img-block">
-                    <a href="#">
-                        <img src="imagem/projetos/twitter1.png" class="img-responsive center-block">
-                    </a>
-                    <div class="caption text-center">
-                        Clone twitter
+    <section id="skills">
+        <div class="container">
+            <div class="skills-content">
+                <h3 class="headling">Meus <span>Skills!!</span></h3>
+            </div>
+            <div class="row">
+                <div class="card col-md-3"
+                    style="width: 18rem; color: black; border: 1 solid red; border-radius: 10px; margin: 20px;">
+                    <img class="card-img-top" src="imagem/code.jpg" alt="Imagem de capa do card">
+                    <div class="card-body skills-container skill-box">
+                        <i class='bx bx-code-alt'></i>
+                        <h3 class="card-title">Backend</h3>
+                        <h4>Linguagens de Programação:</h4>
+                        <p>Python, PHP, Java</p>
+                        <h4>Frameworks:</h4>
+                        <p>Laravel</p>
+                        <h4>Bancos de Dados:</h4>
+                        <p>SQL</p>
                     </div>
-                    </div>
-            </div>
-            <div class="coluna">
-                    <div class="img-block">
-                    <a href="https://cunha-ricardo.github.io/Cunha-Ricardo.github.io-pokemon/">
-                        <img src="imagem/projetos/pokemon1.png" class="img-responsive center-block">
-                    </a>
-                    <div class="caption text-center">
-                        Consulta Pokemon
-                    </div>
-                    </div>
-            </div>
-            <div class="coluna">
-                <div class="img-block">
-                <a href="https://cunha-ricardo.github.io/">
-                    <img src="imagem/projetos/JogoPPT.png" class="img-responsive center-block">
-                </a>
-                <div class="caption text-center">
-                    Pedra papel ou tesoura
                 </div>
-                </div>
-            </div>
 
-            <div class="coluna">
-                <div class="img-block">
-                <a href="https://cunha-ricardo.github.io/cunha-ricardo.github.io-procura-de-filmes-com-api/">
-                    <img src="imagem/projetos/AppFilme.png" class="img-responsive center-block">
-                </a>
-                <div class="caption text-center">
-                    App Filmes 
+                <div class="card col-md-3"
+                    style="width: 18rem; color: black; border: 1 solid red; border-radius: 10px; margin: 20px;">
+                    <img class="card-img-top" src="imagem/designn.jpg" alt="Imagem de capa do card">
+                    <div class="card-body skills-container skill-box ">
+                        <i class='bx bx-paint'></i>
+                        <h3 class="card-title">design Gráfico</h3>
+                        <h4>Software:</h4>
+                        <p>Adobe Photoshop, Adobe Illustrator, Adobe InDesign</p>
+                        <h4>Habilidades:</h4>
+                        <p>Criação de logotipos e edição de imagens</p>
+                    </div>
                 </div>
-                </div>
-            </div>
-        <div class="coluna">
-            <div class="img-block">
-            <a href="https://cunha-ricardo.github.io/Cunha-Ricardo-.githubio-orcamento/">
-                <img src="imagem/projetos/Consulta1.jpg" class="img-responsive center-block">
-            </a>
-            <div class="caption text-center">
-                Consulta Orçamento
-            </div>
-            </div>
-        </div>
-        </div>
-        </div>
-        </div>
-      </section>
 
-    <!-- Seção Contato-->
-      <section id="contato">
+                <div class="card col-md-3"
+                    style="width: 18rem; color: black; border: 1 solid red; border-radius: 10px; margin: 20px;">
+                    <img class="card-img-top" src="imagem/desenvolvedorFront-end.jpg" alt="Imagem de capa do card">
+                    <div class="card-body skills-container skill-box ">
+                        <i class='bx bx-code-alt'></i>
+                        <h3 class="card-title">desenvolvedor front-end</h3>
+                        <h4>Linguagens de Marcação:</h4>
+                        <p>HTML e XML</p>
+                        <h4>Linguagens de Estilização:</h4>
+                        <p>CSS, SASS</p>
+                        <h4>Linguagens de Programação:</h4>
+                        <p>JavaScript</p>
+                        <h4>Frameworks e Bibliotecas:</h4>
+                        <p>React e Bootstrap</p>
+                        <h4>Projetos:</h4>
+                        <p>Desenvolvimento de websites responsivos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projetos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Meus Projetos</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-auto w-100">
+                        <a href="#">
+                            <img src="imagem/projetos/twitter1.png" class="card-img-top" alt="twitter">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: blue;">Projeto Clone twitter</h5>
+                            <p class="card-text" style="color: black;">Clone do aplicativo twitter Ultilizando php</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-auto w-100">
+                        <a href="#">
+                            <img src="imagem/projetos/pokemon1.png" class="img-fluid mt-3" alt="Pokemon">
+                        </a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: blue;">Pokemon</h5>
+                            <p class="card-text" style="color: black;">Projeto Ultilizando api para procura de pokemon
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-auto w-100">
+                        <a href="#">
+                            <img src="imagem/projetos/JogoPPT.png" class="card-img-top" alt="Pedra Papel ou Tesoura">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: blue;">Pedra papel ou tesoura</h5>
+                            <p class="card-text" style="color: black;">Jogo de pedra papel ou tesoura</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-auto w-100">
+                        <a href="#">
+                            <img src="imagem/projetos/Consulta1.jpg" class="card-img-top" alt="Api Filmes">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: blue;">APP de consulta</h5>
+                            <p class=" card-text" style="color: black;">App para cadastrar e consultar gastos
+                                adicionados por você</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-auto w-100">
+                        <a href="#">
+                            <img src="imagem/projetos/AppFilme.png" class="card-img-top img-fluid" alt="Consulta">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: blue;">Projeto filmes</h5>
+                            <p class="card-text" style="color: black;">Consultas de filmes ultilizando api de
+                                filmes, para consulta com notas e descrição do filme em inglês</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contato">
         <hr>
         <div class="contato-content">
             <h3 class="headling">Meu <span>Contato</span></h3>
         </div>
         <h2>Entre em contato</h2>
-            <p>Estou a disposição através dos canais abaixo
+        <p>Estou a disposição através dos canais abaixo
 
-            </p>
+        </p>
 
         <ul>
             <li><i class='bx bx-envelope email-icon'></i> E-mail: <span>ricardodc1211@hotmail.com</span></li>
-            <li><i class='bx bxl-instagram social-icon'></i> Instagram: <span><a href="https://www.instagram.com/ricardoo_cunha/">@ricardoo_cunha</a></span>
+            <li><i class='bx bxl-instagram social-icon'></i> Instagram: <span><a
+                        href="https://www.instagram.com/ricardoo_cunha/">@ricardoo_cunha</a></span>
             </li>
-            <li><i class='bx bxl-linkedin social-icon'></i> LinkedIn: <span><a href="https://www.linkedin.com/in/ricardo-dantas-cunha-a4aa9b216/">Ricardo Dantas Cunha</a></span>
+            <li><i class='bx bxl-linkedin social-icon'></i> LinkedIn: <span><a
+                        href="https://www.linkedin.com/in/ricardo-dantas-cunha-a4aa9b216/">Ricardo Dantas
+                        Cunha</a></span>
             </li>
             <li><i class='bx bx-phone telefone-icon'></i> Telefone: <span>+55 (11) 94300-4579</span></li>
             <li class="wpp"><a href="https://wa.me/16892428795"> <img alt="conversar pelo WhatsApp"
                         src="imagem/WhatsAppButtonWhiteSmall.png" /> </a></li>
         </ul>
 
-      </section>
+    </section>
 
-      <footer>
+    <footer>
         <p>Copyright © 2023</p>
         <h4>Criado por Ricardo Cunha </h4>
-      </footer>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
