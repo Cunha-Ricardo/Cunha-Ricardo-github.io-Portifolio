@@ -8,6 +8,7 @@
     --roxo-p:#5a2168;
     --roxoclaro:#cd04ff44;
     --laranja: #FFCF5C;
+    --laranjaclaro: #f7d483bb;
     --azulescuro: #1a3be2 ; 
     --azul:#cae5ff;
     --azulclaro:#0ef;
@@ -21,4 +22,8 @@
     --verde:#76d3a7;
     --botao:#3f82e7;
     --botaohouver:#5f7aa1;
+    --cordeteste: #1E1E2E;
+    --cordeteste2: #39394b;
+    --forte: #D4A5FF;
+    --forte2: #A45EE5;
 }
